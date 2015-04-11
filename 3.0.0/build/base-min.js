@@ -1,0 +1,2 @@
+/*!build time : 2015-04-11 1:08:33 PM*/
+KISSY.add("kg/ks-timeline/3.0.0/base",function(a){function b(){}return b.prototype={get:function(b){var c=this.ATTRS;return void 0===c[b]?void 0:a.isObject(c[b])?a.isFunction(c[b].value)?c[b].value():c[b].value:c[b]},set:function(b,c){var d=this.ATTRS;return void 0===d[b]?(d[b]={},d[b].value=c):a.isObject(d[b])?void 0===d[b].setter?d[b].value=c:d[b].setter():d[b].value=c}},b});

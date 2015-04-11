@@ -1,0 +1,7 @@
+.ks-timeline .main-content {
+  position: relative;
+  width: 90%;
+  min-width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+}
